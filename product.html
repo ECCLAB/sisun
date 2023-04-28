@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="product.css" type="text/css">
+
+    <!-- 메뉴바 script --><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+	
+    <title>Company / SISUN</title>
+</head>
+
+<!-- The MIT License (MIT)
+
+Copyright (c) 2023 Veronica (https://codepen.io/veronicadev/pen/yjgjvL)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. -->
+<body>
+
+
+    <div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+					
+						<a class="navbar-brand" href="index.html" target="_self"><img src="./img/sisunlogo-blue.png" alt=""></a>	
+						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+                				<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="index.html">HOME</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="company.html" role="button" aria-haspopup="true" aria-expanded="false">회사소개</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="company.html">CEO 인사말</a>
+										<a class="dropdown-item" href="history.html">연혁</a>
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="product.html">제품소개</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="gallery-1.html" role="button" aria-haspopup="true" aria-expanded="false">인증목록</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="gallery-1-1.html">특허</a>
+										<a class="dropdown-item" href="gallery-1-2.html">디자인</a>
+										<a class="dropdown-item" href="gallery-2.html">인증</a>
+										<a class="dropdown-item" href="gallery-3.html">지정/증명</a>
+										<a class="dropdown-item" href="gallery-4.html">표창</a>
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="service.html">고객센터</a>
+								</li>
+							</ul>
+						</div>
+						
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<a href="#" id="scroll" style="display: none;"><span></span></a>
+	
+
+    <section class="company-main">
+		<div>
+			<h1>제품 소개</h1>
+			<h2>PRODUCT</h2>
+		</div>
+		<div class="scrolls">
+			<div class="scroll-container">
+			  <div class="chevron"></div>
+			  <div class="chevron"></div>
+			  <div class="chevron"></div>
+			  <span class="text">Scroll down</span>
+			</div>
+		  </div>
+    </section>
+
+
+	<section class="slide-section">
+		<div class="carousel">
+			<div class="carousel__nav">
+			 <span id="moveLeft" class="carousel__arrow">
+				  <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+			  <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+		  </svg>
+			  </span>
+			  <span id="moveRight" class="carousel__arrow" >
+				<svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+			<path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+		  </svg>    
+			  </span>
+			</div>
+			<div class="carousel-item carousel-item--1">
+			  <div class="carousel-item__image"></div>
+			  <div class="carousel-item__info">
+				<div class="carousel-item__container">
+				<h2 class="carousel-item__subtitle">SMART CANE</h2>
+				<h1 class="carousel-item__title">EL - BANDY</h1>
+				<p class="carousel-item__description">
+					손잡이의 LED은 사용자가 더 안전할 수 있도록,
+					PC소재로 제작된 손잡이와 카본 파이프는 더 가벼울 수 있도록 합니다.
+					전통적인 패턴의 고급스러운 반디 지팡이를 소개합니다.
+				</p>
+				<a href="여기에 반디 스마트스토어 주소를 입력하세요" class="carousel-item__btn">Go Shop</a>
+				  </div>
+			  </div>
+			</div>
+			<div class="carousel-item carousel-item--2">
+			  <div class="carousel-item__image"></div>
+			  <div class="carousel-item__info">
+				<div class="carousel-item__container">
+				<h2 class="carousel-item__subtitle">SMART CANE</h2>
+				<h1 class="carousel-item__title">EL - 40S</h1>
+				<p class="carousel-item__description">
+					적절한 크기의 프레임으로 보행 시 거슬리지 않으며 다족 프레임이 한층 더 안정감있는
+					보행을 도와줍니다. 다리가 불편하신 어르신들을 위한 필수 아이템입니다.
+				</p>
+				<a href="여기에 EL-40S 스마트스토어 주소를 입력하세요" class="carousel-item__btn">Go Shop</a>
+				  </div>
+			  </div>
+			</div>
+			  <div class="carousel-item carousel-item--3">
+			  <div class="carousel-item__image"></div>
+			  <div class="carousel-item__info">
+				<div class="carousel-item__container">
+				<h2 class="carousel-item__subtitle">Incontinence Underwear</h2>
+				<h1 class="carousel-item__title">SOOM<br>F - 80cc</h1>
+				<p class="carousel-item__description">
+					80cc의 대용량, 걱정까지 흡수하는 SOOM 요실금팬티 입니다.
+					부드러운 소재와 뉴시니어를 위한 핑크, 브라운 2가지 컬러로 구성되어있으며
+					시선에서 가장 많은 인기를 누리고 있는 제품입니다.
+				</p>
+				<a href="여기에 SOOM F 스마트스토어 주소를 입력하세요" class="carousel-item__btn">Go Shop</a>
+				  </div>
+			  </div>
+			</div>  
+			
+			 <div class="carousel-item carousel-item--4">
+			  <div class="carousel-item__image"></div>
+			  <div class="carousel-item__info">
+				<div class="carousel-item__container">
+				<h2 class="carousel-item__subtitle">Incontinence Underwear</h2>
+				<h1 class="carousel-item__title">SOOM<br>M - 130cc</h1>
+				<p class="carousel-item__description">
+					130cc의 대용량, 걱정까지 흡수하는 SOOM 요실금팬티 입니다.
+					기존의 드로즈 형태에서 더 원활한 소취와 통풍을 위해 트렁크 형태로
+					제작되었습니다.
+				</p>
+				<a href="여기에 SOOM M 스마트스토어 주소를 입력하세요" class="carousel-item__btn">GO SHOP</a>
+				  </div>
+			  </div>
+			</div>
+			
+		   <div class="carousel-item carousel-item--5">
+			  <div class="carousel-item__image"></div>
+			  <div class="carousel-item__info">
+				<div class="carousel-item__container">
+				<h2 class="carousel-item__subtitle">NON - SLIP SOCKS</h2>
+				<h1 class="carousel-item__title">ONSOCKS</h1>
+				<p class="carousel-item__description">
+					새롭게 선보이는 미끄럼방지 양말, 온삭스입니다.
+					네오프랜 소재로 제작되어 튼튼하고 높은 보온성을 가졌으며
+					자체적으로 제작한 바닥의 논슬립이 미끄럼을 완벽하게 방지해줍니다.
+				</p>
+				<a href="여기에 온삭스 스마트스토어 주소를 입력하세요" class="carousel-item__btn">GO SHOP</a>
+				  </div>
+			  </div>
+			</div>
+
+			<div class="carousel-item carousel-item--6">
+				<div class="carousel-item__image"></div>
+				<div class="carousel-item__info">
+				  <div class="carousel-item__container">
+				  <h2 class="carousel-item__subtitle">2023.12</h2>
+				  <h1 class="carousel-item__title">New<br>Arrival</h1>
+				  <p class="carousel-item__description">
+					Comming Soon !
+				  </p>
+				  <!-- <a href="#" class="carousel-item__btn">GO SHOP</a> -->
+					</div>
+				</div>
+			  </div>
+			
+		  </div>
+	</section>
+
+	<section class="demo catalog">
+		<div class="demo-box catalog">
+			<img src="./img/product/sisun-main-catalog.png" alt="">
+			<ul>
+				<li>SISUN CATALOG</li>
+				<li>시선 카탈로그</li>
+				<li>시선의 전 제품이 수록되어있는 제품 안내책자 입니다.
+					<br>시선의 다양한 제품들이 궁금하신 분은 아래를 클릭해주세요.
+				    <br>모바일, 타블렛은 다운로드를 이용해주세요.</li>
+				<li>
+					<a>
+						<button type="button" onclick="window.open('https://ecclab.github.io/sisun-catalog/');">
+						<span>미리보기</span>
+						</button>
+					 </a>
+					 <a href="https://ecclab.github.io/sisun-catalog/pdf/SISUN-catalog.pdf" target="_blank" download="시선 카탈로그">
+						<button type="button">
+						<span>다운로드</span>
+						</button>
+					 </a> 
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<footer class="site-footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-12 col-md-6">
+			  <h6>About</h6>
+			  <p class="text-justify">
+				<br>
+				<i> SISUN </i>
+				<br><br>
+				전북 익산시 익산대로 460, ITBT 창업보육센터 304호<br>
+				사업자등록번호 : 129-88-02928<br>
+				TEL : 070-8616-7512<br>
+				FAX : 0303-3441-7512<br>
+				E-mail : yusisun01@naver.com</p>
+			</div>
+  
+			<div class="col-xs-6 col-md-3">
+			  <h6>Categories</h6>
+			  <ul class="footer-links">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="company.html">회사소개</a></li>
+				<li><a href="product.html">제품소개</a></li>
+				<li><a href="gallery-1-1.html">인증목록</a></li>
+				<li><a href="service.html">고객센터</a></li>
+			  </ul>
+			</div>
+  
+			<div class="col-xs-6 col-md-3">
+			  <h6>Quick Links</h6>
+			  <ul class="footer-links">
+				<li><a href="https://blog.naver.com/haeall01" target="_blank">BLOG</a></li>
+				<li><a href="https://www.smartcane.co.kr/" target="_blank">CAFE24</a></li>
+				<li><a href="https://smartstore.naver.com/ecclab" target="_blank">SMART STORE</a></li>
+				<li><a href="https://ecclab.github.io/sisun-catalog/pdf/SISUN-catalog.pdf" target="_blank" download="시선 카탈로그">CATALOG DOWNLORD</a></li>
+<!-- 
+				<a>
+					<button type="button" onclick="window.open('https://ecclab.github.io/Catalog/');">
+					<span>미리보기</span>
+					</button>
+				 </a>
+				 <a href="https://ecclab.github.io/Catalog/pdf/ecclab_catalog.pdf" target="_blank" download="해올 카탈로그">
+					<button type="button">
+					<span>다운로드</span>
+					</button>
+				 </a>  -->
+				<!-- <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li> -->
+			  </ul>
+			</div>
+		  </div>
+		  <hr>
+		</div>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-sm-6 col-xs-12">
+			  <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by SISUN
+			  </p>
+			</div>
+		  </div>
+		</div>
+  </footer>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+  	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script  src="./product.js"></script>
+
+</body>
+
+<script>
+    // reveal
+	function scrollReveal() {
+	var revealPoint = 150;
+	var revealElement = document.querySelectorAll(".demo");
+	for (var i = 0; i < revealElement.length; i++) {
+		var windowHeight = window.innerHeight;
+		var revealTop = revealElement[i].getBoundingClientRect().top;
+		if (revealTop < windowHeight - revealPoint) {
+			revealElement[i].classList.add("active");
+		} else {
+			revealElement[i].classList.remove("active");
+		}
+	}
+}
+
+window.addEventListener("scroll", scrollReveal);
+</script>
+
+</html>
