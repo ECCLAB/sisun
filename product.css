@@ -844,32 +844,22 @@ body {
 }
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url(./img/product/bandy-1.png);
+  background-image: url(./img/지팡이/EL-40S\ 썸네일.png);
 }
 
 
 .carousel-item--2 .carousel-item__image{
-  background: url(./img/지팡이/EL-40S\ 썸네일.png) center/cover;
+  background: url(./img/요실금팬티/SOOM-F-80CC.png) center/cover;
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url(./img/요실금팬티/SOOM-F-80CC.png);
-}
-
-.carousel-item--4 .carousel-item__image{
-  background-image: url(./img/요실금팬티/SOOM-M-130CC.png);
-}
-
-.carousel-item--5 .carousel-item__image{
   background-image: url(./img/product/onsocksgray.png);
 }
 
-.carousel-item--6 .carousel-item__image{
-	background-image: url(./img/product/commingsoon.png);
-  }
+.carousel-item--4 .carousel-item__image{
+  background-image: url(./img/product/commingsoon.png);
+}
 
-
-  
 
 .carousel-item__container{
 
