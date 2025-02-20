@@ -853,10 +853,14 @@ body {
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url(./img/product/onsocksgray.png);
+  background-image: url(./img/요실금팬티/SOOM-M-130CC.png);
 }
 
 .carousel-item--4 .carousel-item__image{
+  background-image: url(./img/product/onsocksgray.png);
+}
+
+.carousel-item--5 .carousel-item__image{
   background-image: url(./img/product/commingsoon.png);
 }
 
@@ -949,4 +953,3 @@ transform: translateX(0);
 } */
 
 /* reveal 효과 관련 css */
-
